@@ -3,8 +3,10 @@
 # print('Hola Mundo')
 
 
-def Hola():
+def hola():
+    """envia un saludo"""
     print('Hola Mundo')
     print('Ultimate Python')
 
-Hola()
+
+hola()

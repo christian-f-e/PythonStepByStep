@@ -1,18 +1,18 @@
 """strings.py"""
 
-nombre_curso = "Ultimate Python"
-descripcion_curso = """
+NOMBRE_CURSO = "Ultimate Python"
+DESCRIPCION_CURSO = """
 Ultimate Python,
 este curso contempla todo lo
 que necesitas aprender para
 un trabajo como programador.
 """
-print(nombre_curso, descripcion_curso)
+print(NOMBRE_CURSO, DESCRIPCION_CURSO)
 
-longitud = len(nombre_curso)
-print(longitud)
-print(nombre_curso[0])
-print(nombre_curso[0:8])
-print(nombre_curso[9:])
-print(nombre_curso[:8])
-print(nombre_curso[:])
+LONGITUD = len(NOMBRE_CURSO)
+print(LONGITUD)
+print(NOMBRE_CURSO[0])
+print(NOMBRE_CURSO[0:8])
+print(NOMBRE_CURSO[9:])
+print(NOMBRE_CURSO[:8])
+print(NOMBRE_CURSO[:])

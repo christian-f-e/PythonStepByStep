@@ -1,9 +1,9 @@
 """Cadena de comparadores"""
 
-edad = 25
+EDAD = 25
 
-if (edad >= 15 and edad <= 65):
+if EDAD >= 15 and EDAD <= 65:
     print('Puede entrar a la picina')
 
-if (15 <= edad <= 65):
+if 15 <= EDAD <= 65:
     print('Puedes entrar a la alberca')

@@ -1,7 +1,7 @@
 """variables.py"""
 
-nombre_curso = "Ultimate Python"
-print(nombre_curso)
-alumnos = 5000
-puntaje = 9.9
-publicado = True
+NOMBRE_CURSO = "Ultimate Python"
+print(NOMBRE_CURSO)
+ALUMNOS = 5000
+PUNTAJE = 9.9
+PUBLICADO = True

@@ -1,12 +1,12 @@
-"""While"""
+"""while"""
 # numero = 1
 
 # while numero <= 100:
 #     print(numero)
 #     numero *= 2
 
-comando = ""
+COMANDO = ""
 
-while comando.lower() != "salir":
-    comando = input("$ ")
-    print(comando)
+while COMANDO.lower() != "salir":
+    COMANDO = input("$ ")
+    print(COMANDO)

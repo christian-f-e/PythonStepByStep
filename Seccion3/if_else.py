@@ -1,15 +1,13 @@
 """IF ELSE ELIF"""
 
-edad  = 43 
+EDAD  = 43
 
-if edad > 40 : 
+if EDAD > 40 :
     print('Puede ver la pelicula con super descuento')
-elif edad > 30 : 
+elif EDAD > 30 :
     print('Puede ver la pelicula con descuento')
-elif edad > 17 : 
+elif EDAD > 17 :
     print('Puede ver la pelicula')
 else:
     print('No puedes entrar')
-    
 print ('listo')
-

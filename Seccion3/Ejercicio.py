@@ -3,7 +3,7 @@
 # opcion = ""
 # siguiente = 'Porfavor ingresa el siguiente numero'
 
-resultado = ""
+RESULTADO = ""
 
 print('Bienvenidos a la calculadora')
 print('Para salir escribe salir')
@@ -11,11 +11,11 @@ print('Las operaciones son suma, multi, div y resta')
 
 
 while True:
-    if not resultado:
-        resultado = input('Ingrese un numero: ')
-        if resultado.lower() == 'salir':
+    if not RESULTADO:
+        RESULTADO = input('Ingrese un numero: ')
+        if RESULTADO.lower() == 'salir':
             break
-        resultado = int(resultado)
+        RESULTADO = int(RESULTADO)
     op = input('Ingresa operacion: ')
     if op.lower() == 'salir':
         break
@@ -25,18 +25,18 @@ while True:
     n2 = int(n2)
 
     if op.lower() == 'suma':
-        resultado += n2
+        RESULTADO += n2
     elif op.lower() == 'resta':
-        resultado -= n2
+        RESULTADO -= n2
     elif op.lower() == 'multi':
-        resultado *= n2
+        RESULTADO *= n2
     elif op.lower() == 'div':
-        resultado /= n2
+        RESULTADO /= n2
     else:
         print('Operacion no valida')
         break
 
-    print(f"El resultado es: {resultado}")
+    print(f"El resultado es: {RESULTADO}")
 
 # while opcion.lower() != 'salir':
 #     if numero == 0:

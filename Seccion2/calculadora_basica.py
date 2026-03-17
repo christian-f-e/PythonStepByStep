@@ -10,7 +10,7 @@ rest = n1 - n2
 mult = n1 * n2
 divi = n1 / n2
 
-output = f"""
+OUTPUT = f"""
 Para los números {n1} y {n2}
 el resultado de la suma es {suma}.
 el resultado de la resta es {rest}.
@@ -18,4 +18,4 @@ el resultado de la multiplicacion es {mult}.
 el resultado de la divicion es {divi}.
 """
 
-print(output)
+print(OUTPUT)

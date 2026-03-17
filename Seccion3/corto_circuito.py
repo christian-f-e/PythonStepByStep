@@ -1,10 +1,10 @@
 """Corto circuito"""
 
-gas = False
-encendido = True
-edad = 18
+GAS = False
+ENCENDIDO = True
+EDAD = 18
 
-if not gas and (encendido and edad > 17):
+if not GAS and (ENCENDIDO and EDAD > 17):
     print('Puedes avanzar')
 else:
     print('No puedes avanzar')

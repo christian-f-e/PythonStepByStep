@@ -1,15 +1,15 @@
 """Numeros.py"""
 
-numero = 2  # integer
-decimal = 1.2  # float
-imaginario = 2 + 2j  # imaginario
+NUMERO = 2  # integer
+DECIMAL = 1.2  # float
+IMAGINARIO = 2 + 2j  # imaginario
 # numero = numero + 2
-numero += 2
-numero -= 5
-numero *= 5
-numero /= 5
+NUMERO += 2
+NUMERO -= 5
+NUMERO *= 5
+NUMERO /= 5
 
-print(numero)
+print(NUMERO)
 print(1 + 3)
 print(1 - 3)
 print(1 * 3)

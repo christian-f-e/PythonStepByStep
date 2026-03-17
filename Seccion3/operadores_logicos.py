@@ -1,11 +1,11 @@
 """Operadores Logicos"""
 # and or not
 
-gas = True
-encendido = True
-edad = 18
+GAS = True
+ENCENCDIDO = True
+EDAD = 18
 
-if gas and (encendido and edad > 17):
+if GAS and (ENCENCDIDO and EDAD > 17):
     print('Puedes avanzar')
 else:
     print('No puedes avanzar')
