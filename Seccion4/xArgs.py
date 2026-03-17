@@ -1,12 +1,13 @@
-"""X args"""
+"""xargs.py"""
 
 
-def Suma(*numeros):
+def suma(*numeros):
+    """Suma todos los numeros pasados como argumentos"""
     resultado = 0
     for numero in numeros:
         resultado += numero
     print(resultado)
 
 
-Suma(2, 5, 7)
-Suma(1,2,3,4,5)
+suma(2, 5, 7)
+suma(1, 2, 3, 4, 5)

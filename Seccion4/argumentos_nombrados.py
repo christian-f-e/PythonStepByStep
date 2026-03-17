@@ -1,14 +1,16 @@
-"""parametros_y_argumentos.py"""
+"""Argumentos Nombrados"""
 
 NOMBRE = 'Christian'
 APELLIDO = 'Fernandez'
 
 
-def hola(nombre, apellido):
+def hola(nombre, apellido="Feliz"):
     """concatena nombre y apellido"""
     print('Hola Mundo')
     print(f'Bienvenido {nombre} {apellido}')
 
 
 hola(NOMBRE, APELLIDO)
-hola('Chachito', 'Feliz')
+hola('Chachito')
+
+hola(apellido='Fernandez', nombre='Christian')
